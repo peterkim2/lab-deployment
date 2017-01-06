@@ -36,4 +36,4 @@ const server = module.exports = app.listen(PORT, () => {
   debug(`server up: ${PORT}`);
 });
 
-server.isRunning = true;
+server.isRunning = true; //switch toggle
